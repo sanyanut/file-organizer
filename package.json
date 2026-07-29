@@ -1,0 +1,26 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "CLI tool to organize files",
+  "homepage": "https://github.com/sanyanut/file-organizer#readme",
+  "bugs": {
+    "url": "https://github.com/sanyanut/file-organizer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanyanut/file-organizer.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "file-organizer.js",
+  "scripts": {
+    "scan": "node file-organizer.js scan",
+    "duplicates": "node file-organizer.js duplicates",
+    "organize": "node file-organizer.js organize",
+    "cleanup": "node file-organizer.js cleanup"
+  },
+  "dependencies": {
+    "commander": "^15.0.0"
+  }
+}
